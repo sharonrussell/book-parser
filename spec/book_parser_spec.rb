@@ -6,7 +6,7 @@ describe BookParser do
 
 
 	it 'outputs the words that appear in the book' do
-		book_parser = BookParser.new("book.txt")
+		book_parser = BookParser.new("./src/book.txt")
 		expect(book_parser.Words).to eq("The cat in the hat")
 	end
 end
